@@ -1,0 +1,31 @@
+
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    margin: 10px;
+    width: 100%;
+    gap: 5px;
+}
+
+
+.ro1{
+width: 40%;
+}
+.ro2{
+width: 40%;
+}
+@media (max-width: 576px) {
+ .all{
+    display: block;
+    
+}
+.ro1{
+width: 100%;
+}
+.ro2{
+width: 100%;
+}
+}
