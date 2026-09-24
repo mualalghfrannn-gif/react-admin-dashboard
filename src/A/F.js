@@ -16,6 +16,10 @@ export default function ControlledAccordions() {
 
   return (
     <div>
+      <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>FAQ</h1>
+        <p>Frequently asked questions page</p>
+      </div>
         <Stack direction="column"  sx={{ gap: 2 ,  }}>
      
       <Accordion defaultExpanded onChange={handleChange('panel1')}>

@@ -69,7 +69,11 @@ function renderEventContent(eventInfo) {
 
   return (
     <div>
-     <Stack direction="row"  >
+      <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>CALENDAR</h1>
+        <p>Full calendar interactive page</p>
+      </div>
+           <Stack direction="row"  >
 
 
 

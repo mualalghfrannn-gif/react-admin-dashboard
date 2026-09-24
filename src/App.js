@@ -49,7 +49,8 @@ const Theme = useMemo(() => createTheme(getDesignTokens( mode)), [mode]);
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
         <Typography sx={{ marginBottom: 2 }}>
-         <Routes path="/" element={<Navigate to="/home" replace />} >
+         <Routes  >
+           <Route path="/" element={<Navigate to="/Home" replace />} />
            <Route path="/home" element={<Home />} />
             <Route path="/a" element={<A />} />
             <Route path="/b" element={<B />} />

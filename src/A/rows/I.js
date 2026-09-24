@@ -276,7 +276,10 @@ export default function H() {
     const theme = useTheme()
   return (
     <Box sx={{ height: "75vh" , width: '100%' }}>
-
+<div>
+        <h1 style={{ color: 'blue' }}>LINE CHART</h1>
+        <p>Simple line chart visualization</p>
+      </div>
     <ResponsiveLine
         data={data}
         theme={

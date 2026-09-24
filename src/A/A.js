@@ -60,6 +60,10 @@ const rows = [
 export default function DataGridDemo() {
   return (
     <Box sx={{ height: 500, minWidth: '90%' }}>
+      <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>MANAGE TEAM</h1>
+        <p >Managing the team members</p>
+      </div>
       <DataGrid
         rows={rows}
         columns={columns}

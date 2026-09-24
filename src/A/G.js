@@ -42,6 +42,10 @@ export default function G() {
     const theme = useTheme()
   return (
     <Box sx={{ height: "75vh", width: '100%' }}>
+        <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>BAR CHART</h1>
+        <p>Simple bar chart visualization</p>
+      </div>
       <ResponsiveBar
         data={data}
         // المفاتيح التي تمثل الأعمدة المقارنة

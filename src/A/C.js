@@ -59,7 +59,14 @@ const rows = [
 
 export default function C() {
   return (
-    <Box sx={{ height: 500, width: '100%' }}>
+    <Box sx={{ height: 500, margin:"auto",width: '95%' }}>
+      
+
+
+       <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>INVOICE BALANCES</h1>
+        <p>List of invoice balances</p>
+      </div>
       <DataGrid
         rows={rows}
         columns={columns}

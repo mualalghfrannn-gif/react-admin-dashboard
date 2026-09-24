@@ -38,7 +38,10 @@ export default function H() {
     const theme = useTheme()
   return (
    <Box sx={{ height: "75vh" , width: '100%' }}>
-
+<div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>PIE CHART</h1>
+        <p>Simple pie chart visualization</p>
+      </div>
 
     <ResponsivePie /* or Pie for fixed dimensions */
         data={data}

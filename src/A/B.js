@@ -104,7 +104,12 @@ export default function B() {
   });
 
   return (
-    <Box sx={{ height: 500, width: '100%' }}>
+    <Box sx={{ height: 500, width: '95% , margin:"auto' }}>
+     
+      <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>CONTACTS</h1>
+        <p>List of contact details for future reference</p>
+      </div>
       <DataGridPremium
         {...data}
         rows={rows}

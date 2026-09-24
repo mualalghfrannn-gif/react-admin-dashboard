@@ -63,10 +63,14 @@ export default function D() {
       autoComplete="off"
       sx={{ display: 'flex', flexDirection: 'column', gap: 2, width: '100%', p: 2 }}
     >
-      <div>
-        <h1 style={{ color: 'blue' }}>Create User</h1>
+       
+
+
+      <div style={{marginBottom:"13px"}}>
+        <h1 style={{ color: 'blue' }}>CREATE USER</h1>
         <p>Create a new user profile</p>
       </div>
+      
 
       <Stack spacing={2} direction="row">
         {/* First Name */}
